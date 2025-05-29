@@ -7,16 +7,50 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+<CustomerCardHero
+  centered={true}
+  title="Every customer, fully understood"
+  subtitle="Lapel creates a living digital twin of each relationship by unifying conversations, system data, and activity—so every interaction feels personal, seamless, and one step ahead."
+  customers={[ 
+    {
+      name: "Jessica Lee",
+      position: "Director of Customer Success",
+      imageSrc: "/generated/image-a-confident-professional-woman-stands-in.webp"
+    },
+    {
+      name: "Michael Tran",
+      position: "COO",
+      imageSrc: "/generated/image-a-smiling-businessman-is-in-a-tech-theme.webp"
+    },
+    {
+      name: "Ashley Chen",
+      position: "Head of Growth",
+      imageSrc: "/generated/image-a-young-asian-woman-is-in-a-meeting-spac.webp"
+    },
+    {
+      name: "Samantha Riley",
+      position: "Product Manager",
+      imageSrc: "/generated/image-a-cheerful-young-professional-woman-is-w.webp"
+    },
+    {
+      name: "David Kim",
+      position: "VP of Operations",
+      imageSrc: "/generated/image-a-thoughtful-senior-executive-man-is-sea.webp"
+    }
+  ]}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by industry leaders"
+	logoUrls={[
+		"https://logo.clearbit.com/zendesk.com",
+		"https://logo.clearbit.com/hubspot.com",
+		"https://logo.clearbit.com/asana.com",
+		"https://logo.clearbit.com/salesforce.com"
+	]}
+/>
 
 <Summary
 	generating
