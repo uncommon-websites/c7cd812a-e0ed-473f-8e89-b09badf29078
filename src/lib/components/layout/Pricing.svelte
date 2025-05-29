@@ -35,94 +35,97 @@ Please update features according to the company's product offering. Do not remov
 
 	// Props
 	const {
-		title = "Simple, transparent pricing",
-		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
+		title = "Plans built for growing teams",
+		subtitle = "Start with the essentials. Scale with confidence.",
+		tierNames = ["Starter", "Growth", "Enterprise"],
 		features = [
 			{
-				name: "Projects",
+				name: "Team seats",
 				tiers: {
-					Starter: "5",
-					Pro: "Unlimited",
+					Starter: "Up to 5",
+					Growth: "Up to 50",
 					Enterprise: "Unlimited"
 				}
 			},
 			{
-				name: "Team members",
+				name: "Email, chat, and calendar integration",
 				tiers: {
-					Starter: "1",
-					Pro: "10",
-					Enterprise: "Unlimited"
+					Starter: true,
+					Growth: true,
+					Enterprise: true
 				}
 			},
 			{
-				name: "Storage",
+				name: "Full-channel data capture",
 				tiers: {
-					Starter: "1GB",
-					Pro: "10GB",
-					Enterprise: "Unlimited"
+					Starter: "Basic",
+					Growth: true,
+					Enterprise: true
+				}
+			},
+			{
+				name: "Customer records (digital twins)",
+				tiers: {
+					Starter: "Core",
+					Growth: "Advanced",
+					Enterprise: "Real-time graph"
+				}
+			},
+			{
+				name: "Contact timeline with unified view",
+				tiers: {
+					Starter: true,
+					Growth: true,
+					Enterprise: true
+				}
+			},
+			{
+				name: "Automated playbooks",
+				tiers: {
+					Starter: "Lite",
+					Growth: "Configurable",
+					Enterprise: "Fully customizable"
+				}
+			},
+			{
+				name: "Analytics and activity insights",
+				tiers: {
+					Starter: "Basic",
+					Growth: "Advanced",
+					Enterprise: "AI-powered"
 				}
 			},
 			{
 				name: "API access",
 				tiers: {
 					Starter: false,
-					Pro: true,
+					Growth: true,
 					Enterprise: true
 				}
 			},
 			{
-				name: "Custom domains",
+				name: "Support",
 				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
-				}
-			},
-			{
-				name: "Analytics",
-				tiers: {
-					Starter: "Basic",
-					Pro: "Advanced",
-					Enterprise: "Advanced"
-				}
-			},
-			{
-				name: "Support response time",
-				tiers: {
-					Starter: "24 hours",
-					Pro: "4 hours",
-					Enterprise: "1 hour"
-				}
-			},
-			{
-				name: "Dedicated account manager",
-				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: true
-				}
-			},
-			{
-				name: "SLA",
-				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: "99.9%"
+					Starter: "Email",
+					Growth: "Standard SLA + CSM",
+					Enterprise: "Priority SLA + Enterprise support"
 				}
 			}
 		],
 		tiers = [
 			{
 				name: "Starter",
-				monthlyPrice: 9.99,
-				yearlyPrice: 7.99, // 20% savings
-				description: "Perfect for individuals and small projects",
+				monthlyPrice: 49,
+				yearlyPrice: 39, // discount for annual
+				description: "For small teams and early-stage companies",
 				features: [
-					"Up to 5 projects",
-					"Basic analytics",
-					"24-hour support response time",
-					"1GB storage"
+					"Up to 5 team seats",
+					"Email, chat, and calendar integration",
+					"Core customer records (digital twins)",
+					"Contact timeline with unified view",
+					"Trigger-based playbooks (lite)",
+					"Basic analytics and activity insights",
+					"Email support"
 				],
 				cta: {
 					label: "Get started",
@@ -130,21 +133,22 @@ Please update features according to the company's product offering. Do not remov
 				}
 			},
 			{
-				name: "Pro",
-				monthlyPrice: 29.99,
-				yearlyPrice: 23.99, // 20% savings
-				description: "For growing teams and businesses",
+				name: "Growth",
+				monthlyPrice: 229,
+				yearlyPrice: 189,
+				description: "For growing orgs with multi-functional teams",
 				features: [
-					"Unlimited projects",
-					"Advanced analytics",
-					"4-hour support response time",
-					"10GB storage",
-					"Custom domains",
-					"Team collaboration tools"
+					"Up to 50 team seats",
+					"Full-channel data capture (email, meetings, support tickets, chat)",
+					"Advanced customer records with stakeholder mapping",
+					"Customizable playbooks and automations",
+					"API access and native data warehouse sync",
+					"Churn risk and expansion signal detection",
+					"Standard SLA with dedicated CSM"
 				],
 				cta: {
-					label: "Get started",
-					href: "/signup?plan=pro"
+					label: "Start free trial",
+					href: "/signup?plan=growth"
 				},
 				highlight: true
 			},
@@ -152,15 +156,16 @@ Please update features according to the company's product offering. Do not remov
 				name: "Enterprise",
 				monthlyPrice: null,
 				yearlyPrice: null,
-				description: "For large organizations with specific needs",
+				description: "For high-volume teams with complex lifecycles",
 				features: [
-					"Everything in Pro",
-					"Dedicated account manager",
-					"1-hour support response time",
-					"Unlimited storage",
-					"Advanced security features",
-					"Custom integrations",
-					"99.9% uptime SLA"
+					"Unlimited team seats",
+					"All interaction data and third-party tool integrations",
+					"Real-time knowledge graph across global customer base",
+					"Granular permissions and team-driven views",
+					"AI-powered call, message, and meeting summaries",
+					"Custom objects and configurable workflows",
+					"Full API access, single sign-on, and security reviews",
+					"Guaranteed SLAs with priority support"
 				],
 				cta: {
 					label: "Contact sales",

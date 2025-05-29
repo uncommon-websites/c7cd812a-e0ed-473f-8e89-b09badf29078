@@ -53,107 +53,97 @@
 />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="Lapel is a Customer Operations Platform that creates a digital twin of every customer relationship. By unifying data from every team and system, it empowers organizations to deliver faster, more personal service across every customer touchpoint."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Samira Halston",
+			position: "Head of Customer Operations",
+			company: "RelaySync",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"Lapel has cut our prep and follow-up work by over 50%. It feels like we got back hours every week to focus on genuine customer conversations instead of digging for details.",
+			image: "/generated/image-a-confident-woman-in-a-contemporary-offi.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Ezra Boateng",
+			position: "Support Lead",
+			company: "NovaSphere",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"Lapel’s unified view means fewer mistakes and faster responses. We’ve dropped our critical ticket risk by a third—our SLAs finally feel safe.",
+			image: "/generated/image-a-focused-man-working-in-a-call-center-w.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Meilin Chao",
+			position: "VP of Finance",
+			company: "Optiview",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"Before Lapel, reconciling contract and billing data cost us both money and time. We’ve since cut error-driven losses and our audit process is twice as fast.",
+			image: "/generated/image-a-middle-aged-east-asian-woman-in-a-fina.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Features that set us apart"
+	subtitle="The essentials powering world-class customer operations"
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "A real-time digital twin for every customer",
+			description: "See every conversation, action, and touchpoint unified in a single, living customer record as it evolves."
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "Full context in every conversation",
+			description: "Deliver truly personal, decisive service—no more wasting time piecing together data from separate tools."
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Automate and extend with smart playbooks & APIs",
+			description: "Trigger perfectly-timed actions or build custom experiences for any team with agentic playbooks and robust APIs."
 		}
 	]}
 />
 
 <UseCases
-	generating
 	title="Use Cases"
 	subtitle="Real-world applications for your business needs"
 	useCases={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings.",
-			image:
-				"https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+			title: "Proactive account risk management",
+			description: "Lapel tracks every customer signal—from silent weeks to urgent tickets—so your team can spot risks early and act before accounts spiral.",
+			image: "/generated/image-an-account-manager-in-a-modern-office-se.webp",
 			link: {
-				href: "/use-cases/workflows",
+				href: "/use-cases/account-risk-signals",
 				label: "Learn more"
 			}
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2488&q=80",
+			title: "Revenue expansion signals",
+			description: "Automatically surface upsell and cross-sell opportunities based on product usage, support interactions, and customer comments in emails or calls.",
+			image: "/generated/image-a-collaborative-workspace-bustling-with-.webp",
 			link: {
-				href: "/use-cases/data-analysis",
-				label: "Explore analytics"
+				href: "/use-cases/expansion-signals",
+				label: "Learn more"
 			}
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption.",
-			image:
-				"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+			title: "Fast onboarding for new account teams",
+			description: "When ownership changes, Lapel gives new owners full visibility into every past meeting, decision, and priority—no digging or guessing.",
+			image: "/generated/image-a-busy-office-environment-where-an-accou.webp",
 			link: {
-				href: "/use-cases/collaboration",
-				label: "See security features"
+				href: "/use-cases/account-onboarding",
+				label: "Learn more"
 			}
 		}
 	]}
 />
 
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+  title="Every customer interaction, fully informed"
+  subtitle="No more hunting through tools"
+  description="Lapel brings together all customer context into a single, real-time view—so your team can engage confidently, every time. Just seamless service and stronger customer relationships."
+  imageSrc="/generated/image-a-cheerful-customer-success-manager-with.webp"
+  callsToAction={[{ href: '/contact', label: 'Power every interaction with clarity', variant: 'primary' }]}
+/>

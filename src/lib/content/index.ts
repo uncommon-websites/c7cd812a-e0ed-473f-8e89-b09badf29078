@@ -1,7 +1,44 @@
 export const CONFIG = {
-	companyName: "Company",
-	description: "Description",
+	companyName: "Lapel",
+	description: "Lapel is building a Customer Operations Platform that creates a complete digital twin of each customer relationship to power every customer touchpoint and enable teams to deliver exceptional service at internet scale.",
 	image: "/og.png",
 	url: "https://example.com",
-	fontFamily: "Inter Variable"
+	fontFamily: "Inter Variable",
+	brand: {
+	  background: "var(--color-background)",
+	  foreground: "var(--color-foreground)",
+	  card: "var(--color-card)",
+	  cardForeground: "var(--color-card-foreground)",
+	  cardHover: "var(--color-card-hover)",
+	  popover: "var(--color-popover)",
+	  popoverForeground: "var(--color-popover-foreground)",
+	  primary: "var(--color-primary)",
+	  primaryForeground: "var(--color-primary-foreground)",
+	  secondary: "var(--color-secondary)",
+	  secondaryForeground: "var(--color-secondary-foreground)",
+	  muted: "var(--color-muted)",
+	  mutedForeground: "var(--color-muted-foreground)",
+	  accent: "var(--color-accent)",
+	  accentForeground: "var(--color-accent-foreground)",
+	  destructive: "var(--color-destructive)",
+	  border: "var(--color-border)",
+	  input: "var(--color-input)",
+	  ring: "var(--color-ring)",
+	  chartColors: [
+	    "var(--color-chart-1)",
+	    "var(--color-chart-2)",
+	    "var(--color-chart-3)",
+	    "var(--color-chart-4)",
+	    "var(--color-chart-5)"
+	  ],
+	  sidebar: "var(--color-sidebar)",
+	  sidebarForeground: "var(--color-sidebar-foreground)",
+	  sidebarPrimary: "var(--color-sidebar-primary)",
+	  sidebarPrimaryForeground: "var(--color-sidebar-primary-foreground)",
+	  sidebarAccent: "var(--color-sidebar-accent)",
+	  sidebarAccentForeground: "var(--color-sidebar-accent-foreground)",
+	  sidebarBorder: "var(--color-sidebar-border)",
+	  sidebarRing: "var(--color-sidebar-ring)",
+	  radius: "0.5rem"
+	}
 };

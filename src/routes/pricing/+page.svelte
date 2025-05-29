@@ -15,35 +15,41 @@
 <Pricing />
 
 <Testimonials
-	testimonials={[
-		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
-			quote:
-				"This solution transformed our workflow and increased productivity by 35% in just two months.",
-			image:
-				"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
-			quote:
-				"The implementation was seamless and the support team was exceptional throughout the process.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
-			quote:
-				"We've tried multiple solutions, but this is the only one that perfectly addressed all our requirements.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&estimonial-3.jpg"
-		}
-	]}
+  testimonials={[
+    {
+      name: "Alina Zheng",
+      position: "VP of Customer Experience",
+      company: "Routeframe",
+      quote:
+        "With Lapel, we've gone from reactive chaos to actionable clarity. Our CS team understands each customer context instantly—and it shows in the feedback.",
+      image: "/generated/image-a-professional-headshot-of-an-east-asian.webp"
+    },
+    {
+      name: "Malik Owens",
+      position: "Head of Commercial Ops",
+      company: "Cloudbay",
+      quote:
+        "Before Lapel, prepping for a customer meeting felt like assembling a crime board. Now everything's just... there.",
+      image: "/generated/image-a-professional-headshot-of-a-black-man-i.webp"
+    },
+    {
+      name: "Julian Ramos",
+      position: "Revenue Operations Lead",
+      company: "Axtradium",
+      quote:
+        "Lapel became our single source of truth for every active deal and account. It's drastically reduced time spent reconciling systems—and boosted close rates, too.",
+      image: "/generated/image-a-professional-headshot-of-a-latino-man-.webp"
+    }
+  ]}
 />
 
-<CallToAction />
+<CallToAction
+	title="A shared brain for every customer relationship"
+	subtitle="Lapel gives your entire team complete, real-time context on every account—so you can move faster, serve smarter, and never miss a moment."
+	description="Start using Lapel today and power every touchpoint with everything your team needs. No more guessing, switching tabs, or digging for answers—just instant, trusted context where you need it. Ready to move faster?"
+	imageSrc="/generated/image-a-happy-business-professional-in-a-moder.webp"
+	callsToAction=[
+		{ href: '/get-started', label: 'Get started', variant: 'primary' },
+		{ href: '/contact', label: 'Talk to sales', variant: 'secondary' }
+	]
+/>

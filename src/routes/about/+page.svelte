@@ -10,25 +10,29 @@
 
 	// Constants
 	const values = [
-		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
-		},
-		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
-		},
-		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
-		}
-	];
+	{
+		title: "Unified by context",
+		description: "We connect every customer touchpoint—across teams and tools—so everyone works from the same, real-time source of truth."
+	},
+	{
+		title: "Clarity over noise",
+		description: "We pursue deep customer understanding and reject the chaos of fragmented data, making every decision with full context."
+	},
+	{
+		title: "Operate for impact",
+		description: "Every initiative, workflow, and line of code is measured by the value it delivers to the teams and customers we serve."
+	},
+	{
+		title: "Customer reality comes first",
+		description: "Our digital twin reflects the real, living customer—not just static records. We build for accuracy, completeness, and trust."
+	}
+];
 </script>
 
 <SecondaryHero
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://source.unsplash.com/random/?people"
+	title="Every customer, fully connected"
+	subtitle="A digital twin of every relationship so teams can deliver fast, consistent service at any scale"
+	imageSrc="/mockups/airport-screen-1748477910196.png"
 />
 
 <!-- Story Section -->
@@ -46,32 +50,29 @@
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
-	stakeholders={[
-		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image:
-				"https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		}
-	]}
+  stakeholderType="team"
+  title="Our team"
+  subtitle="The people building Lapel's customer operations platform"
+  stakeholders={[
+    {
+      name: "Alex Morgan",
+      position: "Founder & CEO",
+      bio: "Alex designs the architecture for Lapel’s customer operations platform and leads the vision for unified customer context across every team interaction.",
+      image: "/generated/image-a-professional-headshot-of-a-man-in-busi.webp"
+    },
+    {
+      name: "Jamie Chen",
+      position: "Chief Design Officer",
+      bio: "Jamie brings human-centered design to complex systems, ensuring Lapel is intuitive for every user and team.",
+      image: "/generated/image-a-professional-headshot-of-a-woman-in-bu.webp"
+    },
+    {
+      name: "Taylor Wright",
+      position: "Head of Engineering",
+      bio: "Taylor develops the infrastructure that powers Lapel—handling data at scale so every customer relationship stays accurate and actionable.",
+      image: "/generated/image-a-professional-headshot-featuring-a-pers.webp"
+    }
+  ]}
 />
 
 <StakeholderGrid
@@ -96,7 +97,12 @@
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="This is the foundation your team has been missing"
+	subtitle="A real-time digital twin for every customer"
+	description="Lapel gives ambitious teams a living digital twin of every customer relationship. Replace fragmented tools with a shared, real-time source of truth—and unlock service at scale, without the busywork. If you’re looking to unify your customer operations and break out of silos, start here."
+	callsToAction={[
+	  { href: '/get-started', label: 'Request early access', variant: 'primary' },
+	  { href: '/contact', label: 'Talk to our team', variant: 'secondary' }
+	]}
+	imageSrc="/generated/image-a-modern-professional-b2b-team-leader-st.webp"
 />
